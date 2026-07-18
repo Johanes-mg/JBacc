@@ -81,7 +81,27 @@ gradlew assembleDebug
 #### 📂 Où trouver l'APK Debug ?
 
 ~JBacc\app\build\outputs\apk\debug\app-debug.apk
+
 ---
+### ⚠️ Note importante
+
+Les sources des contenus pédagogiques ne sont pas produits par l'auteur du projet. Elles sont déjà citées dans les documents respectifs.
+
+---
+
+## 🙏 Remerciements
+
+Les sources des leçons et sujets proviennent de :
+
+- **CNTEMAD** 
+- **Lycée Présentation de Marie**
+- **Autres établissements scolaires** ayant contribué à la diffusion des ressources éducatives
+
+Un grand merci à tous les enseignants et établissements qui partagent leurs connaissances pour la réussite des élèves.
+
+---
+
+## 🍀 Bonne chance pour le Bac !
 ## Auteur
 
 Johanès Falitiana
