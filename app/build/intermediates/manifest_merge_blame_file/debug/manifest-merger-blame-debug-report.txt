@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.baccjojoh.mg"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.baccjojoh.mg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.baccjojoh.mg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:4:5-32:19
+18        android:allowBackup="true"
+18-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /home/johanes/.gradle/caches/transforms-3/1d33ce28da6c03c9bbefb5ac8ec12fb7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/ic_launcher"
+21-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:6:9-45
+22        android:label="JBacc"
+22-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:7:9-30
+23        android:theme="@style/Theme.AppCompat.Light" >
+23-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:8:9-53
+24        <provider
+24-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:10:9-18:20
+25            android:name="androidx.core.content.FileProvider"
+25-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:11:13-62
+26            android:authorities="com.baccjojoh.mg.fileprovider"
+26-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:12:13-64
+27            android:exported="false"
+27-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:13:13-37
+28            android:grantUriPermissions="true" >
+28-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:14:13-47
+29            <meta-data
+29-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:15:13-17:54
+30                android:name="android.support.FILE_PROVIDER_PATHS"
+30-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:16:17-67
+31                android:resource="@xml/file_paths" />
+31-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:17:17-51
+32        </provider>
+33
+34        <activity
+34-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:20:9-27:20
+35            android:name="com.baccjojoh.mg.MainActivity"
+35-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:21:13-41
+36            android:exported="true" >
+36-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:22:13-36
+37            <intent-filter>
+37-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:24:17-69
+38-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:25:17-77
+40-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.baccjojoh.mg.SerieActivity" />
+43-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:28:9-51
+43-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:28:19-48
+44        <activity android:name="com.baccjojoh.mg.MenuActivity" />
+44-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:29:9-50
+44-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:29:19-47
+45        <activity android:name="com.baccjojoh.mg.MatiereActivity" />
+45-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:30:9-53
+45-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:30:19-50
+46        <activity android:name="com.baccjojoh.mg.ContentActivity" />
+46-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:31:9-53
+46-->/home/johanes/Projets/JBacc/app/src/main/AndroidManifest.xml:31:19-50
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+50            android:authorities="com.baccjojoh.mg.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] /home/johanes/.gradle/caches/transforms-3/8586484d0a6bf62a6e5db939ac615429/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/johanes/.gradle/caches/transforms-3/a011f698a49f5fd1e45db6d7c698d1a2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/johanes/.gradle/caches/transforms-3/a011f698a49f5fd1e45db6d7c698d1a2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/johanes/.gradle/caches/transforms-3/a011f698a49f5fd1e45db6d7c698d1a2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

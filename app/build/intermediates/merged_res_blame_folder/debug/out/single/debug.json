@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/drawable_ic_launcher.png.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/drawable_ic_light.png.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/drawable/ic_light.png"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/drawable_ic_dark.png.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/drawable/ic_dark.png"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/drawable_ic_plume.png.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/drawable/ic_plume.png"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/layout_activity_serie.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/layout/activity_serie.xml"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/layout_activity_matiere.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/layout/activity_matiere.xml"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/layout_activity_menu.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/xml_file_paths.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.baccjojoh.mg.app-merged_res-30:/layout_activity_content.xml.flat",
+        "source": "com.baccjojoh.mg.app-main-32:/layout/activity_content.xml"
+    }
+]
