@@ -48,10 +48,9 @@ Avant de commencer, assurez-vous d'avoir installé :
 ---
 
 ## 📥 Installation
-
+---
 ### 1️⃣ Cloner le projet
 
-```bash
 # Via HTTPS
 git clone https://github.com/Johanes-mg/JBacc.git
 
@@ -60,6 +59,7 @@ git clone git@github.com:Johanes-mg/JBacc.git
 
 # Accéder au dossier
 cd JBacc
+
 ---
 ### 2️⃣ Ouvrir dans Android Studio
 
@@ -83,7 +83,7 @@ gradlew assembleDebug
 ---
 #### 📂 Où trouver l'APK Debug ?
 
-~JNotes\app\build\outputs\apk\debug\app-debug.apk
+~JBacc\app\build\outputs\apk\debug\app-debug.apk
 ---
 ## Auteur
 
