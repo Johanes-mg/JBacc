@@ -25,10 +25,10 @@ Application Android de révision pour les élèves de Terminale à Madagascar, d
   - Par matière et par série
 
 - 🎯 **Séries disponibles** :
-  - Série C (Scientifique)
-  - Série D (Scientifique)
-  - Série A1 (Littéraire)
-  - Série A2 (Littéraire)
+  - Série C
+  - Série D
+  - Série A1
+  - Série A2
 
 - 📄 **Visualisation** :
   - Ouvrez les PDF, images et présentations
@@ -53,9 +53,6 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 # Via HTTPS
 git clone https://github.com/Johanes-mg/JBacc.git
-
-# Ou via SSH
-git clone git@github.com:Johanes-mg/JBacc.git
 
 # Accéder au dossier
 cd JBacc
