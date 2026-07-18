@@ -53,20 +53,6 @@ Application Android de révision pour les élèves de Terminale à Madagascar, d
 
 ---
 
-### Aperçu rapide
-
-<div align="center">
-  <img src="captures/2.jpg" alt="Accueil" width="200" style="margin: 5px;"/>
-  <img src="captures/3.jpg" alt="Séries" width="200" style="margin: 5px;"/>
-  <img src="captures/4.jpg" alt="Menu" width="200" style="margin: 5px;"/>
-  <br/>
-  <img src="captures/5.jpg" alt="Matières" width="200" style="margin: 5px;"/>
-  <img src="captures/6.jpg" alt="Documents" width="200" style="margin: 5px;"/>
-  <img src="captures/8.jpg" alt="PDF" width="200" style="margin: 5px;"/>
-</div>
-
----
-
 ## 🛠️ Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé :
