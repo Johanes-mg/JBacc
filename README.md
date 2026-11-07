@@ -15,20 +15,33 @@ Application Android de révision pour les élèves de Terminale à Madagascar.
 
 ---
 
-## Captures d'écran
+## Aperçu
 
-### Navigation
+### Écran d'accueil
 
-| # | Écran | Description |
-|---|-------|-------------|
-| <img src="captures/jbacckotlin_1.jpg" width="200"/> | **Icône** | Logo JBacc sur le lanceur |
-| <img src="captures/jbacckotlin_2.jpg" width="200"/> | **Accueil** | Choix du parcours : Scientifique ou Littéraire |
-| <img src="captures/jbacckotlin_3.jpg" width="200"/> | **Série** | Sélection de la série A1 ou A2 |
-| <img src="captures/jbacckotlin_4.jpg" width="200"/> | **Série** | Sélection de la série C ou D |
-| <img src="captures/jbacckotlin_5.jpg" width="200"/> | **Matières** | Liste des 8 matières disponibles |
-| <img src="captures/jbacckotlin_6.jpg" width="200"/> | **Sujets** | Sujets et corrigés de la matière choisie |
-| <img src="captures/jbacckotlin_7.jpg" width="200"/> | **Sujets** | Sujets et corrigés de la matière choisie |
-| <img src="captures/jbacckotlin_8.jpg" width="200"/> | **PDF** | Visualisation d'un sujet via le lecteur externe |
+<img src="captures/jbacckotlin_2.jpg" width="320" alt="Accueil"/>
+
+### Choix de la série
+
+<p>
+<img src="captures/jbacckotlin_3.jpg" width="320" alt="Série A1/A2"/>
+<img src="captures/jbacckotlin_4.jpg" width="320" alt="Série C/D"/>
+</p>
+
+### Liste des matières
+
+<img src="captures/jbacckotlin_5.jpg" width="320" alt="Matières"/>
+
+### Sujets et corrigés
+
+<p>
+<img src="captures/jbacckotlin_6.jpg" width="320" alt="Sujets"/>
+<img src="captures/jbacckotlin_7.jpg" width="320" alt="Corrigés"/>
+</p>
+
+### Ouverture d'un document
+
+<img src="captures/jbacckotlin_8.jpg" width="320" alt="PDF"/>
 
 ---
 
