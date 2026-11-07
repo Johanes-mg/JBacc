@@ -33,7 +33,7 @@
 
 ### Logo
 
-<img src="captures/jbacckotlin_1jpg" width="320" alt="Logo"/>
+<img src="captures/jbacckotlin_1.jpg" width="320" alt="Logo"/>
 
 ### Écran d'accueil
 
