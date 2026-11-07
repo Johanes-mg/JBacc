@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.baccjojoh.mg">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="JBacc"
-        android:theme="@style/Theme.AppCompat.Light">
-        
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        android:enableOnBackInvokedCallback="true"
+        android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode">
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.baccjojoh.mg.fileprovider"
@@ -16,7 +19,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,7 +29,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SerieActivity" />
-        <activity android:name=".MenuActivity" />
         <activity android:name=".MatiereActivity" />
         <activity android:name=".ContentActivity" />
     </application>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jb_primary">#4F46E5</color>
+    <color name="jb_primary_dark">#3730A3</color>
+    <color name="jb_secondary">#10B981</color>
+    <color name="jb_accent">#F59E0B</color>
+    <color name="jb_danger">#EF4444</color>
+    <color name="jb_surface">#FFFFFF</color>
+    <color name="jb_surface_alt">#F8FAFC</color>
+    <color name="jb_border">#E2E8F0</color>
+    <color name="jb_text_primary">#0F172A</color>
+    <color name="jb_text_secondary">#475569</color>
+    <color name="jb_text_muted">#94A3B8</color>
+    <color name="jb_matiere">#4F46E5</color>
+    <color name="jb_matiere_text">#FFFFFF</color>
+    <color name="jb_gradient_start">#EEF2FF</color>
+    <color name="jb_gradient_end">#F5F3FF</color>
+</resources>

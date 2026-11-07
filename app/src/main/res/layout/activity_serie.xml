@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
-
-    <Button
-        android:id="@+id/btn_retour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Retour"
-        android:textSize="16sp"
-        android:backgroundTint="#ED4524"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="16dp"/>
+    android:background="@drawable/bg_gradient"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="48dp"
+    android:paddingBottom="16dp">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        style="@style/TextAppearance.JBacc.Title"
+        android:textSize="28sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="24dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,24 +25,28 @@
         android:layout_below="@id/title"
         android:layout_marginTop="48dp">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_option1"
+            style="@style/Widget.JBacc.Button.Primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:layout_marginBottom="16dp"
-            android:padding="16dp"
-            android:backgroundTint="#2196F3"/>
+            android:layout_marginBottom="16dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_option2"
+            style="@style/Widget.JBacc.Button.Secondary"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:layout_marginBottom="16dp"
-            android:padding="16dp"
-            android:backgroundTint="#4CAF50"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_retour"
+        style="@style/Widget.JBacc.Button.Retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

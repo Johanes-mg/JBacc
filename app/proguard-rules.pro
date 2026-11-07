@@ -1,0 +1,2 @@
+-keep class com.baccjojoh.mg.databinding.** { *; }
+-dontwarn kotlinx.**

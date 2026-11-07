@@ -2,19 +2,33 @@ package com.baccjojoh.mg
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.baccjojoh.mg.data.AssetRepository
+import com.baccjojoh.mg.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        findViewById<Button>(R.id.btn_scientifique).setOnClickListener {
+        AssetRepository.nettoyerCache(applicationContext)
+
+        binding.btnScientifique.setOnClickListener {
             startActivity(Intent(this, SerieActivity::class.java).putExtra("type", "scientifique"))
         }
-        findViewById<Button>(R.id.btn_litteraire).setOnClickListener {
+        binding.btnLitteraire.setOnClickListener {
             startActivity(Intent(this, SerieActivity::class.java).putExtra("type", "litteraire"))
+        }
+    }
+
+    override fun onTrimMemory(level: Int) {
+        super.onTrimMemory(level)
+        if (level >= TRIM_MEMORY_UI_HIDDEN) {
+            AssetRepository.viderCacheMemoire()
         }
     }
 }
