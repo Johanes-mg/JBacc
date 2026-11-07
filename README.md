@@ -31,6 +31,10 @@
 
 ## Aperçu
 
+### Logo
+
+<img src="captures/jbacckotlin_21jpg" width="320" alt="Logo"/>
+
 ### Écran d'accueil
 
 <img src="captures/jbacckotlin_2.jpg" width="320" alt="Écran d'accueil"/>
