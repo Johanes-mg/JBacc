@@ -1,4 +1,3 @@
-Set-Content -Path README.md -Encoding UTF8 -Value @'
 # JBacc - Révision Bac Madagascar
 
 Application Android de révision pour les élèves de Terminale à Madagascar.
@@ -25,7 +24,7 @@ Application Android de révision pour les élèves de Terminale à Madagascar.
 | <img src="captures/jbacckotlin_1.jpg" width="200"/> | **Icône** | Logo JBacc sur le lanceur |
 | <img src="captures/jbacckotlin_2.jpg" width="200"/> | **Accueil** | Choix du parcours : Scientifique ou Littéraire |
 | <img src="captures/jbacckotlin_3.jpg" width="200"/> | **Série** | Sélection de la série A1 ou A2 |
-| <img src="captures/jbacckotlin_4.jpg" width="200"/> | **Série** | Sélection de la série C OU D |
+| <img src="captures/jbacckotlin_4.jpg" width="200"/> | **Série** | Sélection de la série C ou D |
 | <img src="captures/jbacckotlin_5.jpg" width="200"/> | **Matières** | Liste des 8 matières disponibles |
 | <img src="captures/jbacckotlin_6.jpg" width="200"/> | **Sujets** | Sujets et corrigés de la matière choisie |
 | <img src="captures/jbacckotlin_7.jpg" width="200"/> | **Sujets** | Sujets et corrigés de la matière choisie |
@@ -150,4 +149,3 @@ Les sources ne sont pas produites par l'auteur du projet. Elles sont citées dan
 ---
 
 *« Le succès n'est pas un hasard, mais le résultat de la persévérance et du travail. »*
-'@
